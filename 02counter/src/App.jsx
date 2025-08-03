@@ -11,7 +11,10 @@ function App() {
 
   const addValue = () => {
     //counter++;
-    setCounter(counter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
   }
 
   const removeValue = () => {
